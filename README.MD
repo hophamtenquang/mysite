@@ -2,7 +2,7 @@
 
 from django.utils import timezone
 
-##Question
+## Question
 ### To create an object QUestion and save it:
 - q = Question(question_text="What's new", pub_date=timezone.now())
 - q.save()
