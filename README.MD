@@ -1,9 +1,12 @@
-- from polls.models import Question, Choice
+# Save for using Django's model
 
+## Import
+```
+from polls.models import Question, Choice
 from django.utils import timezone
-
+```
 ## Question
-### To create an object QUestion and save it:
+### To create an object Question and save it:
 - q = Question(question_text="What's new", pub_date=timezone.now())
 - q.save()
 
